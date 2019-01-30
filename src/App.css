@@ -65,6 +65,17 @@ button:hover {
   padding:10px;
 }
 
+.hidden-text-area {
+  opacity:0;
+  height:0px;
+  width:0px;
+  text-align:left;
+  background-color:white;
+  color:black;
+  font-weight:normal;
+  font-size:14px;
+}
+
 .footer {
   margin:50px;
 }
