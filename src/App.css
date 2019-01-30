@@ -21,6 +21,7 @@
 button {
   font-size: calc(6px + 2vmin);
   border-radius:5px;
+  background-color: #e7e7e7;
 }
 
 .my-header {
@@ -40,19 +41,23 @@ button {
   margin-bottom:5px;
 }
 
-.results-data {
+.results-box {
   background-color: rgb(42, 86, 167);
   margin:5px;
   height:80px;
-  line-height:80px;
-  width: 450px;
+  width:90%;
+  max-width: 400px;
+  margin-left:auto;
+  margin-right:auto;
   vertical-align:middle;
   border-radius:5px;
+  display:flex; 
+  justify-content:center; 
+  align-items:center;
 }
 
-.vertical {
-  display:inline-block;
-  line-height:normal;
+.results-text {
+  padding:10px;
 }
 
 .footer {

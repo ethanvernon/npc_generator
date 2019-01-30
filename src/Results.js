@@ -13,8 +13,8 @@ export class Results extends Component {
 		return(
   			<div key={RollTable[i].tableName}>
   				<span className='results-label' key={'results'+i}>{RollTable[i].tableName}:</span><br/>
-  				<div className='results-data' key={'results-data'+i}>
-					<span className='vertical'>{this.props.results[i]}</span>
+  				<div className='results-box' key={'results-data'+i}>
+					<span className='results-text' key={'results-text'+i}>{this.props.results[i]}</span>
 				</div>
 			</div>
   		)

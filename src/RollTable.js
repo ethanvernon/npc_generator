@@ -4,7 +4,7 @@ export const RollTable = [
 		number: 20,
 		rolls:
 		{
-			"1": "Distinctive jewelry: earrings, necklace, etc",
+			"1": "Distinctive jewelry: earrings, necklace, circlet, bracelets",
 			"2": "Piercings",
 			"3": "Flamboyant or outlandish clothes",
 			"4": "Formal, clean clothes",
