@@ -18,6 +18,11 @@
   padding-top:30px;
 }
 
+.results {
+  padding:10px;
+  font-size: calc(7px + 2vmin);
+}
+
 .App-link {
   color: #61dafb;
 }

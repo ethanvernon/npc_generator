@@ -7,7 +7,6 @@ export class RollButton extends Component {
 	    this.handleClick = this.handleClick.bind(this);
 	}
 
-	//calls Parent.js' goBack function which updates state to hide this page and show previous one
 	handleClick() {
 		this.props.handleClick();
 	}

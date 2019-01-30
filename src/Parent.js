@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { RollTable } from './RollTable';
 import { RollButton } from './RollButton';
+import { Results } from './Results';
 
 export class Parent extends Component {
 
@@ -8,7 +9,7 @@ export class Parent extends Component {
 	    super(props);
 
 	    this.state = {
-	    	default: 0
+	    	results: [],
 	    }
 
 		this.generateAll = this.generateAll.bind(this);
@@ -27,6 +28,10 @@ export class Parent extends Component {
 		}
 
 		console.log(allRolls);
+
+		this.setState({
+			results: allRolls
+		})
 	}
 
 	
@@ -36,8 +41,9 @@ export class Parent extends Component {
 		return (
 			<div>
 				<RollButton
-					handleClick = {this.generateAll}
-				/>
+					handleClick = {this.generateAll} />
+				<Results 
+					results = {this.state.results}/>
 			</div>
 		);
 	}
