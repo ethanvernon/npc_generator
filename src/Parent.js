@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { RollTable } from './RollTable';
 import { RollButton } from './RollButton';
 import { Results } from './Results';
+import { Footer } from './Footer';
 
 export class Parent extends Component {
 
@@ -44,6 +45,7 @@ export class Parent extends Component {
 					handleClick = {this.generateAll} />
 				<Results 
 					results = {this.state.results}/>
+				<Footer/>
 			</div>
 		);
 	}

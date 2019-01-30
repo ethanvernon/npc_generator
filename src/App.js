@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          NPC Generator
+          <span className="my-header">NPC Generator</span>
           <Parent/>
         </header>
       </div>

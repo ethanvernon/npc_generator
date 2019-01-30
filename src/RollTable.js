@@ -27,7 +27,7 @@ export const RollTable = [
 		}
 	},
 	{
-		tableName: 'High abilities',
+		tableName: 'High ability scores',
 		number: 6,
 		rolls:
 		{
@@ -40,7 +40,7 @@ export const RollTable = [
 		}
 	},
 	{
-		tableName: 'Low abilities',
+		tableName: 'Low ability scores',
 		number: 6,
 		rolls:
 		{

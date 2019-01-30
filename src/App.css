@@ -8,19 +8,49 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(51, 51, 204);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(191, 191, 191);
   padding-top:30px;
+}
+
+.my-header {
+  color: rgb(230, 153, 153);
+  font-size: calc(16px + 2vmin);
+  font-weight: bold;
 }
 
 .results {
   padding:10px;
   font-size: calc(7px + 2vmin);
+}
+
+.results-label {
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+.results-data {
+  background-color: rgb(42, 86, 167);
+  margin:5px;
+  height:80px;
+  line-height:80px;
+  width: 450px;
+  vertical-align:middle;
+  border-radius:5px;
+}
+
+.vertical {
+  display:inline-block;
+  line-height:normal;
+}
+
+.footer {
+  margin:50px;
 }
 
 .App-link {
