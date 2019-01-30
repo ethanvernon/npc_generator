@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/npc_generator/static/js/runtime~main.9229f1a2.js"
   },
   {
-    "revision": "27c6261319931901f8e7",
-    "url": "/npc_generator/static/js/main.27c62613.chunk.js"
+    "revision": "5b41652677df6193f283",
+    "url": "/npc_generator/static/js/main.5b416526.chunk.js"
   },
   {
     "revision": "11cd304093640138fb65",
     "url": "/npc_generator/static/js/1.11cd3040.chunk.js"
   },
   {
-    "revision": "27c6261319931901f8e7",
-    "url": "/npc_generator/static/css/main.0dfe90b8.chunk.css"
+    "revision": "5b41652677df6193f283",
+    "url": "/npc_generator/static/css/main.5f1f33c7.chunk.css"
   },
   {
-    "revision": "1db5ac37b7cae7f5af458badff239e91",
+    "revision": "aabcfa33468daa02174c80d6eeef011c",
     "url": "/npc_generator/index.html"
   }
 ];
