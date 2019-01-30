@@ -67,8 +67,9 @@ button:hover {
 
 .hidden-text-area {
   opacity:0;
-  height:0px;
-  width:0px;
+  overflow:hidden;
+  height:1px;
+  width:1px;
   text-align:left;
   background-color:white;
   color:black;

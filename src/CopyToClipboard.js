@@ -8,6 +8,10 @@ export class CopyToClipboard extends Component {
 	}
 
 	handleClick() {
+		//clear any selection
+		if (window.getSelection) {window.getSelection().removeAllRanges();}
+
+
 		let range = document.createRange();
 		range.selectNode(document.getElementById('copy-version'));
 		window.getSelection().addRange(range);
