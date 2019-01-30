@@ -13,13 +13,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
   color: rgb(191, 191, 191);
   padding-top:30px;
 }
 
 button {
-  font-size: calc(6px + 2vmin);
+  font-size: 14px;
   border-radius:5px;
   background-color: #e7e7e7;
   padding:5px;
@@ -31,25 +30,26 @@ button:hover {
 
 .my-header {
   color: rgb(230, 153, 153);
-  font-size: calc(16px + 2vmin);
+  font-size: 30px;
   font-weight: bold;
   margin-bottom:10px;
 }
 
 .results {
   padding:10px;
-  font-size: calc(7px + 2vmin);
+  font-size: 14px;
 }
 
 .results-label {
   font-weight:bold;
   margin-bottom:5px;
+  font-size: 16px;
 }
 
 .results-box {
   background-color: rgb(42, 86, 167);
   margin:5px;
-  height:80px;
+  height:50px;
   width:90%;
   max-width: 400px;
   margin-left:auto;
@@ -62,7 +62,7 @@ button:hover {
 }
 
 .results-text {
-  padding:10px;
+  padding:5px;
 }
 
 .hidden-text-area {
