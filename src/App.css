@@ -18,10 +18,16 @@
   padding-top:30px;
 }
 
+button {
+  font-size: calc(6px + 2vmin);
+  border-radius:5px;
+}
+
 .my-header {
   color: rgb(230, 153, 153);
   font-size: calc(16px + 2vmin);
   font-weight: bold;
+  margin-bottom:10px;
 }
 
 .results {
